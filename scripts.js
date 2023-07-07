@@ -10,3 +10,18 @@ projectButtons.forEach(item => {
         }
     })
 });
+
+imageViewer = document.querySelector('.imageViewer');
+let images = document.querySelectorAll('.js-images');
+
+images.forEach(item => {
+    item.addEventListener("click", e =>{
+        imageViewer.classList.toggle("-active");
+        imageViewer.children[0].setAttribute("src", item.getAttribute("src"));
+        imgViewer.children[1].innerText(item.getAttribute("alt"));
+    })
+});
+
+imageViewer.addEventListener("click",e=>{
+    imageViewer.classList.toggle("-active");
+})
