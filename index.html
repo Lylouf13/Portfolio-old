@@ -7,9 +7,9 @@
 
 <body>
     <header>
-        <div class="headerTitles">
+        <div class="header__titles">
             <h1>Lylian Leutard</h1>
-            <p>Designer, Artiste</p>
+            <p class="header__jobTitle">Designer, Artiste</p>
         </div>
         <div class="headerLines">
             <span class="headerCircleLittle"></span>
@@ -44,16 +44,16 @@
                 <span class="headerCircleLittle"></span>
             </div>
             <div class="introBlock">
-                <div class="introBlockText">
-                    <h2>Bonjour !</h2>
-                    <p>Je suis un game designer et pixel artist, fraichement reconverti dans le web pour de nouvelles aventures.<br><br>
+                <div>
+                    <h2 class="introBlock__title">Bonjour !</h2>
+                    <p class="introBlock__text">Je suis un game designer et pixel artist, fraichement reconverti dans le web pour de nouvelles aventures.<br><br>
                         Fort de mes précédentes expériences, je souhaite utiliser mes connaissances et mes sensibilités en
                         matière d'interaction et de construction visuelle sur un nouveau médium.
                     </p>
                 </div>
-                <div class="introBlockPhoto"> 
-                    <img src="images/photoIntro.jpg" alt="Le Catou" draggable="true">
-                    <div class=" whiteSquare"> </div>
+                <div class="introBlock__imageContainer"> 
+                    <img class="introBlock__image" src="images/photoIntro.jpg" alt="Le Catou" draggable="true">
+                    <div class=" whiteLine"> </div>
                 </div>
             </div>
         </section>
@@ -75,37 +75,37 @@
 
             <!-- ETHER PROJECT -->
             <div class="projetBlock">
-                <div class="projetBlockMainElements">
-                    <div class="projetBlockText">
-                        <h2>Ether</h2>
-                        <p>Explosions, réactions en chaînes et couleurs vives
+                <div class="projetBlock__mainElements">
+                    <div class="projetBlock__mainContainer">
+                        <h2 class="projetBlock__mainTitle">Ether</h2>
+                        <p class="projetBlock__mainText">Explosions, réactions en chaînes et couleurs vives
                         </p>
                     </div>
-                    <div class="projetBlockPhoto"> 
-                        <img src="images/projets/ether/ether1.png">
+                    <div class="projetBlock__imageContainer"> 
+                        <img class="projetBlock__image" src="images/projets/ether/ether1.png">
                     </div>
                 </div>
                 <div class="ctaButton js-projectButton">
                     <p>Voir Plus</p>
                 </div> 
-                <div class="projetBlockAdditionnalElements" id="additionnalElementsEther" >
-                    <div class="project__AdditionnalBlock">
+                <div class="projetBlock__additionnalElements" id="additionnalElementsEther" >
+                    <div class="projet__additionnalBlock">
                         <div class="collumnBlock">
-                            <p class="project__AdditionnalText"> Ether est un projet de jouet réalisé lors de ma deuxième année à l'ICAN,
+                            <p class="project__additionnalText"> Ether est un projet de jouet réalisé lors de ma deuxième année à l'ICAN,
                                 derrière ces visuels minimalistes se cachent un gameplay centré sur les
                                 collisions et les réactions en chaine, permises par les différents éléments
                                 présents dans l'espace de jeu.
                             </p>
-                            <p class="project__AdditionnalText"> L'intérêt du projet se trouve donc dans ces différentes interactions,
+                            <p class="project__additionnalText"> L'intérêt du projet se trouve donc dans ces différentes interactions,
                                 qui vont provoquer des explosions visuelles de par les mouvements de masses d'éléments, ainsi que par 
                                 les différentes interactions entre joueur et élements, mais également entre les éléments eux-même.
                             </p>
                         </div>
-                            <img src="images/projets/ether/ether2.jpg" class="js-images">
+                            <img class="project__additionnalBlockImage" src="images/projets/ether/ether2.jpg" class="js-images">
                     </div>
-                    <div class="project__AdditionnalBlock">
-                            <img src="images/projets/ether/ether3.jpg" class="js-images">
-                            <img src="images/projets/ether/ether4.png" class="js-images">
+                    <div class="project__additionnalBlock">
+                            <img class="project__additionnalBlockImage" src="images/projets/ether/ether3.jpg" class="js-images">
+                            <img class="project__additionnalBlockImage" src="images/projets/ether/ether4.png" class="js-images">
                     </div>
                     <iframe width="90%" height="500" src="https://www.youtube.com/embed/yzouTU5PmNo" 
                     title="YouTube video player" frameborder="0" 
@@ -115,10 +115,10 @@
             
             <!-- CACHE CAT PROJECT -->
             <div class="projetBlock">
-                <div class="projetBlockMainElements">
-                    <div class="projetBlockText">
-                        <h2>Cache Cat</h2>
-                        <p>Bons baisers de la Chroma Cat
+                <div class="projetBlock__mainElements">
+                    <div class="projetBlock__mainContainer">
+                        <h2 class="projetBlock__mainTitle">Cache Cat</h2>
+                        <p class="projetBlock__mainText">Bons baisers de la Chroma Cat
                         </p>
                     </div>
                     <div class="projetBlockPhoto"> 
