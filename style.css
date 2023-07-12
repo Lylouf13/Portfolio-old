@@ -7,7 +7,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(225, 235, 252);
+    background-color: #e1ebfc;
     text-align: center;
     padding-top: 40px;
     font-family: 'Roboto', sans-serif;
@@ -239,19 +239,18 @@ footer{
 .projet__additionnalBlock{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 90%;
-    gap: 30px;
+    gap: 20px;
 }
 
-.project__additionnalText { 
+.projet__additionnalText { 
     font-size: 18px;
     width: 80% !important; 
     font-family: 'Roboto', sans-serif;
 }
 
-.project__additionnalBlockImage{
+.projet__additionnalBlockImage{
     width:fit-content;
     max-height: 300px;
     max-width: 50%;
@@ -404,4 +403,15 @@ img:hover ~ .imageHoverGradient{
 .imageViewer.-active{
     opacity:100;
     pointer-events: all;
+}
+
+.footerIconContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footerIcon{
+    width: 50px;
+    height: 50px
 }
