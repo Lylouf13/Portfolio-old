@@ -408,11 +408,24 @@ img:hover ~ .imageHoverGradient{
     pointer-events: all;
 }
 
+.footerMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
 .footerIconContainer{
     display:flex;
     justify-content: center;
     align-items: center;
     height: 100px;
+    gap: 20px;
+}
+.footerText{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: rgb(66, 104, 128);
 }
 .footerIcon{
     width: 50px;
