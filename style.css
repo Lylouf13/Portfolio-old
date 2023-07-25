@@ -448,7 +448,7 @@ img:hover ~ .imageHoverGradient{
 .footerIcon:hover{
     width: 70px;
     height: 70px;
-    background-color: hsl(203, 32%, 65%);
+    background-color: hsl(203, 55%, 75%);
 }
 .footerIcon:hover+.footerIconImage{
     width: 50px;
