@@ -420,6 +420,7 @@ img:hover ~ .imageHoverGradient{
     align-items: center;
     height: 100px;
     gap: 20px;
+    
 }
 .footerText{
     margin-top: 20px;
