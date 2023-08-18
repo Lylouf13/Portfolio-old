@@ -504,11 +504,11 @@ img:hover ~ .imageHoverGradient{
     .projet__additionnalText{
         width:100% !important;
         text-align: justify;
-        font-size: 22px;
+        font-size: 24px;
         margin-bottom: 15px;
     }
     .projetBlock__mainText, .introBlock__text{
-        font-size: 22px;
+        font-size: 24px;
     }
     .introBlock__title{
         padding-top:25px;
@@ -521,10 +521,10 @@ img:hover ~ .imageHoverGradient{
     .ctaButton {
         width: 350px;
         height: 100px;
-        font-size: 22px;
+        font-size: 24px;
     }
     .header__jobTitle{
-        font-size: 22px;
+        font-size: 24px;
     }
     .headerNavigation{
         gap: 75px;
@@ -532,7 +532,7 @@ img:hover ~ .imageHoverGradient{
     header .ctaButton{
         width: 250px;
         height: 100px;
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .footerText{
