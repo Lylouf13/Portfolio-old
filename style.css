@@ -3,7 +3,11 @@
     padding:0;
     scroll-behavior: smooth !important;
 }
-
+h1{
+    font-size: 35px;
+    text-align: center;
+    white-space: nowrap;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -194,7 +198,7 @@ footer{
 
 /* ADDITIONNAL ELEMENT ACTIVE STATE */
 .projetBlock.-active{
-    max-height: 2000px;
+    max-height: 5000px;
     background-color: hsl(156, 70%, 90%);
 }
 .projetBlock.-active:hover{
@@ -502,9 +506,7 @@ img:hover ~ .imageHoverGradient{
     .imageHoverGradient{
         font-size: 50px;
     }
-    .projetBlock__additionnalElements{
-        display: block;
-    }
+
     .projet__additionnalBlock{
         display: block;
     }
@@ -519,6 +521,10 @@ img:hover ~ .imageHoverGradient{
     }
     .projet__additionnalBlock .ctaButton{
         align-self: center;
+    }
+    .projet__additionnalText{
+        font-size: 22px;
+        margin-bottom: 15px;
     }
 
 }
