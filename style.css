@@ -124,21 +124,15 @@ footer{
 .introBlock:hover{
     background-color: rgb(211, 225, 247);
 }
-
-.introBlockText{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    max-width: 300px;
-    padding:30px
-}
-
 .introBlock__title{
+    padding-top:25px;
+    padding-bottom:25px;
     padding-left:20px;
 }
 
 .introBlock__text{
-    padding-left:30px;
-}
+    padding-bottom:25px;
+    padding-left:35px;}
 
 .introBlock__imageContainer{
     display:flex;
@@ -397,7 +391,7 @@ img:hover ~ .imageHoverGradient{
 .footerIconImage{
     width: 40px;
     height: 40px;
-
+    user-select: none;
 }
 .footerIcon{
     display: flex;
@@ -408,6 +402,7 @@ img:hover ~ .imageHoverGradient{
     background-color: white;
     border-radius: 100px;
     transition: all 0.4s;
+    user-select: none;
 }
 
 .footerIcon:hover{
@@ -419,27 +414,7 @@ img:hover ~ .imageHoverGradient{
     width: 50px;
     height: 50px;
 }
-/* @media screen and (width<=850px){
-    .pixelGrid{
-        display: grid;
-        padding-left:40px;
-        padding-right:40px;
-        max-width: 80%;
-        grid-template-columns: 100%;
-        gap:0px;
-    }
-    .pixelGridAnim{
-        display: grid;
-        padding-left:40px;
-        padding-right:40px;
-        max-width: 80%;
-        grid-template-columns: 100%;
-        gap:0px;
-    }
-    .imageHoverGradient{
-        font-size: 24px;
-    }
-} */
+
 
 @media screen and (width>=1250px){
     .pixelGrid_1{
@@ -535,6 +510,14 @@ img:hover ~ .imageHoverGradient{
     .projetBlock__mainText, .introBlock__text{
         font-size: 22px;
     }
+    .introBlock__title{
+        padding-top:25px;
+        padding-bottom:25px;
+    }
+    .introBlock__text{
+        padding-bottom:25px;
+        padding-left:35px;
+    }
     .ctaButton {
         width: 350px;
         height: 100px;
@@ -552,4 +535,26 @@ img:hover ~ .imageHoverGradient{
         font-size: 22px;
     }
 
+    .footerText{
+        font-size: 30px;
+    }
+    .footerMainContainer{
+        gap: 30px;
+    }
+    .footerIconContainer{
+        gap:40px;
+    }
+    .footerIcon{
+        width: 80px;
+        height: 80px;
+    }
+    .footerIconImage{
+        width: 45px;
+        height: 45px;
+    }
+    .footerIcon:hover{
+        width: 100px;
+        height: 100px;
+        background-color: hsl(203, 55%, 75%);
+    }
 }
