@@ -481,6 +481,10 @@ img:hover ~ .imageHoverGradient{
 }
 
 @media screen and (width<1250px){
+    .introBlock{
+        width:70%;
+        max-height:none;
+    }
     .pixelGrid{
         display: grid;
         padding-left:40px;
@@ -523,8 +527,29 @@ img:hover ~ .imageHoverGradient{
         align-self: center;
     }
     .projet__additionnalText{
+        width:100% !important;
+        text-align: justify;
         font-size: 22px;
         margin-bottom: 15px;
+    }
+    .projetBlock__mainText, .introBlock__text{
+        font-size: 22px;
+    }
+    .ctaButton {
+        width: 350px;
+        height: 100px;
+        font-size: 22px;
+    }
+    .header__jobTitle{
+        font-size: 22px;
+    }
+    .headerNavigation{
+        gap: 75px;
+    }
+    header .ctaButton{
+        width: 250px;
+        height: 100px;
+        font-size: 22px;
     }
 
 }
