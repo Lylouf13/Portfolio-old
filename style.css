@@ -87,7 +87,7 @@ footer{
 .sectionTitle{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 80%;
     gap:20px;
     justify-content: center;
     align-items: center;
@@ -202,8 +202,7 @@ footer{
 }
 
 .projetBlock__additionnalElements.-active{
-    max-height: 2000px;
-    overflow: hidden;
+    max-height: 5000px;
     opacity: 1;
     transition: all 1s;
 }
@@ -438,7 +437,7 @@ img:hover ~ .imageHoverGradient{
     }
 } */
 
-@media screen and (width>1250px){
+@media screen and (width>=1250px){
     .pixelGrid_1{
         grid-column-start: 1;
         grid-column-end: 3;
@@ -477,7 +476,7 @@ img:hover ~ .imageHoverGradient{
     }
 }
 
-@media screen and (width>850px) and (width<1250px){
+@media screen and (width<1250px){
     .pixelGrid{
         display: grid;
         padding-left:40px;
@@ -499,6 +498,27 @@ img:hover ~ .imageHoverGradient{
         grid-column-start: 1;
         grid-column-end: 3;
 
+    }
+    .imageHoverGradient{
+        font-size: 50px;
+    }
+    .projetBlock__additionnalElements{
+        display: block;
+    }
+    .projet__additionnalBlock{
+        display: block;
+    }
+    .projet__additionnalBlockImage{
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom:15px;
+    }
+    .collumnBlock{
+        display: block;
+        margin-bottom:15px;
+    }
+    .projet__additionnalBlock .ctaButton{
+        align-self: center;
     }
 
 }
