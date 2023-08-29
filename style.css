@@ -29,6 +29,7 @@ header{
     gap: 20px;
     width: 65%;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .headerCircle{
     width: 15px;
@@ -53,8 +54,11 @@ header{
     flex-direction: row;
     justify-content: center;
     gap: 150px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    background-color: #e1ebfc;
+    padding: 20px 20px 0px 20px;
+
+    position:sticky;
+    top: 0px;
 
 }
 
@@ -528,6 +532,8 @@ img:hover ~ .imageHoverGradient{
     }
     .headerNavigation{
         gap: 75px;
+        padding: 20px 50px 0px 50px;
+
     }
     header .ctaButton{
         width: 250px;
